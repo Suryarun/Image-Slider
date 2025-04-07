@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #CAE7DF;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrowImg{
+    width: 10px;
+}
+
+#sliderImage {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  /* font-size: 16px; */
+  cursor: pointer;
+  border: none;
+  /* background-color: #007bff; */
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+    border: 2px solid #ccc;
+}
+
